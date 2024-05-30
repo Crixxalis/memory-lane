@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add memories</title>
+    <link rel="stylesheet" href="./styles/add-memories.css">
+    <script src="https://kit.fontawesome.com/cbb36b75e1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="add-memories-label">
+            <div class="button-container">
+                <button class="back-btn"><i class="fa-solid fa-arrow-left"></i></button>
+            </div>
+            <h2>Add Memory</h2>
+        </div>
+
+        <div class="fields-container">
+            <div class="title">
+                <label for="">Title:</label><br>
+                <input class="field" type="text">
+            </div>
+            <div class="date">
+                <label for="">Date:</label><br>
+                <input class="field" type="date">
+            </div>
+            <div class="date-category">
+                <label for="">Category:</label><br>
+                <select class="field" name="category" id="category">
+                    <option value="">Movie</option>
+                    <option value="">Food</option>
+                    <option value="">Date</option>
+                    <option value="">...</option>
+                </select>
+            </div>
+            <div class="date-summary">
+                <label for="">Summary:</label><br>
+                <textarea name="summary" id="summary" rows="4" cols="100%"></textarea>
+            </div>
+        </div>
+
+        <div class="upload-files">
+            <p>Upload Photo:</p>
+            <div class="upload"></div>
+            <div class="upload"></div>
+            <div class="upload"></div>
+            <div class="upload"></div>
+            <div class="upload"></div>
+            <div class="upload"></div>
+        </div>
+
+    </div>
+</body>
+</html>

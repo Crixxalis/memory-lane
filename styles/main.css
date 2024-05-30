@@ -43,8 +43,15 @@ h1 {
       font-family: "Dancing Script", cursive;
       text-align: center;
     }
+
+    .time-span {
+        align-self: flex-start;
+        font-family: "Dancing Script", cursive;
+        margin-left: 20px;
+    }
     
     .view-memories {
+        font-family: "Josefin Sans", sans-serif;
         border: 1px solid gray;
         background-color: #FF90BC;
         border-radius: 10px;

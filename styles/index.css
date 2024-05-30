@@ -49,11 +49,12 @@
     }
     
     .login-btn {
+        font-family: "Josefin Sans", sans-serif;
         border: 1px solid gray;
         background-color: #FF90BC;
         border-radius: 10px;
         color: white;
-        font-size: 17px;
+        font-size: 20px;
         height: 45px;
         width: 180px;    
     }

@@ -68,4 +68,82 @@ h2 {
     color: #FF90BC;
     cursor: pointer;
 }
+
+@media (max-width: 840px){
+    body {
+        background-color: #F9F9E0;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+    
+    .memories {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        gap: 15px;
+        width: 100%;
+    }
+    
+    .card {
+        background-color: aquamarine;
+    }
+    
+    .memories-label {
+        display: grid;
+        grid-template-columns: 80px 1fr;
+        background-color: #FF90BC;
+        text-align: center;
+        height: px;
+        width: 100%;
+    }
+    .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .back-btn {
+        border: 1px solid #FF90BC; 
+        border-radius: 10px;
+        background-color: #FF90BC;
+        color: white;
+        width: 50px;
+        height: 30px;
+        font-size: 20px;
+    }
+    
+    .back-btn:hover {
+        color: aliceblue;
+        cursor: pointer;
+    }
+    
+    h2 {
+        font-family: "Josefin Sans", sans-serif;
+        color: white;
+        text-align: left;
+    }
+    
+    .add-memory {
+        font-family: "Josefin Sans", sans-serif;
+        border: 1px solid gray;
+        background-color: #FF90BC;
+        border-radius: 10px;
+        color: white;
+        font-size: 20px;
+        height: 45px;
+        width: 200px;
+    }
+    
+    .add-memory:hover{
+        background-color: #F9F9E0;
+        color: #FF90BC;
+        cursor: pointer;
+    }
+            
+}
         
